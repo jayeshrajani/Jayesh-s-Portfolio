@@ -96,7 +96,7 @@ export const projects = [
     des: "The re-imagined Mercedes-Benz website uses GSAP, Framer Motion, and ScrollTrigger for smooth transitions and interactive animations, featuring a cutting-edge 3D car configurator and dynamic content.",
     img: "/merc_3.png",
     iconLists: ["/js.svg","css.svg","gsap.svg" ],
-    link: "https://github.com/jayeshrajani/Mercedes-Re-Imagined",
+    link: "https://jayeshrajani.github.io/Mercedes-Re-Imagined/",
   },
   {
     id: 4,
