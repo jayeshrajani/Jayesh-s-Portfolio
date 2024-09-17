@@ -33,7 +33,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack includes ",
-    description: "React , Next.js , Express.js , Tailwind , MongoDB ",
+    description: "React , Next.js , Express.js , Tailwind , MongoDB , SQL , PowerBi",
     className: "lg:col-span-3 md:col-span-3 md:row-span-2 lg:max-h-[40vh]",
     imgClassName: "center z-2 absolute inset-5 object-fill", 
     titleClassName: "flex flex-col justify-start bottom-20",
@@ -46,7 +46,7 @@ export const gridItems = [
     description: "• B.Tech in Computer Science, Vellore Institute of Technology, Vellore (CGPA: 8.53)\n• 12th Grade, Billabong High International School, ICSE Board (92.5%)\n• 10th Grade, Billabong High International School, ICSE Board (94%)",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 relative overflow-hidden",
     imgClassName: "w-full h-full object-cover",
-    titleClassName: "absolute bottom-0 left-0 p-4 text-white bg-opacity-70 w-full z-10",
+    titleClassName: "absolute bottom-20 left-0 p-4 text-white bg-opacity-70 w-full z-10",
     img: "", 
     spareImg: "",
   },
@@ -105,6 +105,14 @@ export const projects = [
     img: "/weather_2.jpg",
     iconLists: ["/js.svg","css.svg","re.svg"],
     link: "https://jayeshrajani.github.io/weatherApp/",
+  },
+  {
+    id: 5,
+    title: "Iphone 16 sales Prediction Analysis Model",
+    des: "Conducted data analysis using SQL to predict iPhone 16 sales based on historical trends and growth rates. Developed a Power BI dashboard for dynamic visualization of the forecast, showcasing key insights and trends in smartphone sales prediction.",
+    img: "/i16Gemini.jpeg",
+    iconLists: ["/sql.png","/datachart.png","/powerbi.png"],
+    link: "https://github.com/jayeshrajani/Iphone-16-prediction-analysis-model",
   },
 ];
 
@@ -209,13 +217,15 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url:"https://github.com/jayeshrajani",
   },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  // },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    url:"https://www.linkedin.com/in/jayesh-rajani-010a08225/",
   },
 ];

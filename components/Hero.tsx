@@ -2,6 +2,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
+import Imageintro from "./ui/imageintro";
 import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
@@ -27,24 +28,29 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-2-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-2-80">
+          {/* <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-2-80">
             welcome to my creative space
-          </h2>
+          </h2> */}
 
-          <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:texl-6xl"
-            words="Transforming Concepts into seamless experiences!"
-          />
+          
 
           <p className="text-center mt-4 md:tracking-wider mb-4 text-sm md:text-lg">Hi, I&apos;m Jayesh , an aspiring developer based in India.</p>
+
+          <TextGenerateEffect
+            className="text-center text-[40px] md:text-5xl lg:texl-6xl mb-5"
+            words="Transforming Concepts into seamless experiences!"
+          />
 
           <a href="#projects">
           <MagicButton
           title="Show my work"
           icon={<FaLocationArrow />}
-            
+              
           />
           </a>
+
+          {/* <Imageintro/>  */}
+
 
         </div>
       </div>
