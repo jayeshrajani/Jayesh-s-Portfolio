@@ -114,6 +114,14 @@ export const projects = [
     iconLists: ["/sql.png","/datachart.png","/powerbi.png"],
     link: "https://github.com/jayeshrajani/Iphone-16-prediction-analysis-model",
   },
+  {
+    id: 6,
+    title: "Customer Churn Prediction Analysis Model",
+    des: "Conducted a comprehensive customer churn analysis project leveraging SQL, Power BI, and Python. Developed a predictive machine learning model using Random Forest to identify potential churners. Utilized Power BI visualizations to gain insights into churn patterns and customer behavior, facilitating targeted retention strategies",
+    img: "/churn.jpeg",
+    iconLists: ["/sql.png","/datachart.png","/powerbi.png","/python.png"],
+    link: "https://github.com/jayeshrajani/customerChurn_Analysis",
+  },
 ];
 
 // export const testimonials = [
